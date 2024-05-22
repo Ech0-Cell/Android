@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    tools:context=".Register"
+    >
+
+    <!-- Logo or App Name -->
+    <TextView
+        android:id="@+id/tv_register_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/et_register_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CCCCCC"
+        android:background="@drawable/edittext_background"
+        android:layout_below="@id/tv_register_app_name"
+        android:layout_marginTop="20dp"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/et_register_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Surname"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:layout_marginHorizontal="10dp"
+        android:textColorHint="#CCCCCC"
+        android:background="@drawable/edittext_background"
+        android:layout_below="@id/et_register_username"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/et_register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CCCCCC"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/edittext_background"
+        android:layout_below="@id/et_register_surname"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+    <!-- Phone Number Input -->
+    <EditText
+        android:id="@+id/et_register_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CCCCCC"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/edittext_background"
+        android:layout_below="@id/et_register_email"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/et_register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CCCCCC"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/edittext_background"
+        android:layout_below="@id/et_register_phone_number"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+    <!-- Confirm Password Input -->
+    <EditText
+        android:id="@+id/et_register_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CCCCCC"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/edittext_background"
+        android:layout_below="@id/et_register_password"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+    <!-- Accept Terms Checkbox -->
+    <CheckBox
+        android:id="@+id/cb_accept_terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I accept the Ech0Cell terms of use"
+        android:textColor="#FFFFFF"
+        android:layout_marginHorizontal="10dp"
+        android:buttonTint="#FFFFFF"
+        android:layout_below="@id/et_register_confirm_password"
+        android:layout_marginTop="16dp" />
+
+    <!-- Accept Data Processing Checkbox -->
+    <CheckBox
+        android:id="@+id/cb_accept_data_processing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accept the processing of my personal data"
+        android:textColor="#FFFFFF"
+        android:layout_marginHorizontal="10dp"
+        android:buttonTint="#FFFFFF"
+        android:layout_below="@id/cb_accept_terms"
+        android:layout_marginTop="1dp" />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginHorizontal="10dp"
+        android:layout_below="@id/cb_accept_data_processing"
+        android:layout_marginTop="24dp"
+        android:padding="12dp"
+        android:textSize="20dp"/>
+
+    <!-- Back to Login Text Button -->
+    <TextView
+        android:id="@+id/tv_back_to_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Login"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/btn_register"
+        android:layout_marginTop="16dp"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
