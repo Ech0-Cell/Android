@@ -49,7 +49,7 @@
             android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="default pack"
+            android:text="Pack name 1"
             android:textColor="#FFFFFF"
             android:textSize="18sp"/>
 
@@ -57,7 +57,7 @@
             android:id="@+id/panel1_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="300₺"
+            android:text="null ₺"
             android:layout_gravity="center"
             android:textColor="#FFFFFF"
             android:textSize="24sp"/>
@@ -66,7 +66,7 @@
             android:id="@+id/panel1_data"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Data: 30 GB"
+            android:text="Data:"
             android:textColor="#FFFFFF"
             android:textSize="16sp"/>
 
@@ -74,7 +74,7 @@
             android:id="@+id/panel1_minutes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Minutes: 750 Min"
+            android:text="Minutes:"
             android:textColor="#FFFFFF"
             android:textSize="16sp"/>
 
@@ -82,7 +82,7 @@
             android:id="@+id/panel1_sms"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SMS: 100"
+            android:text="SMS:"
             android:textColor="#FFFFFF"
             android:textSize="16sp"/>
     </LinearLayout>
@@ -103,7 +103,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="mennan pack"
+            android:text="Pack name 2"
             android:textColor="#FFFFFF"
             android:textSize="18sp"/>
 
@@ -111,7 +111,7 @@
             android:id="@+id/panel2_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="350₺"
+            android:text="null ₺"
             android:layout_gravity="center"
             android:textColor="#FFFFFF"
             android:textSize="24sp"/>
@@ -120,7 +120,7 @@
             android:id="@+id/panel2_data"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Data: 20 GB"
+            android:text="Data:"
             android:textColor="#FFFFFF"
             android:textSize="16sp"/>
 
@@ -128,7 +128,7 @@
             android:id="@+id/panel2_minutes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Minutes: 1000 Min"
+            android:text="Minutes:"
             android:textColor="#FFFFFF"
             android:textSize="16sp"/>
 
@@ -136,7 +136,7 @@
             android:id="@+id/panel2_sms"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SMS: 150"
+            android:text="SMS:"
             android:textColor="#FFFFFF"
             android:textSize="16sp"/>
 
@@ -158,7 +158,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="eco pack"
+            android:text="Pack name 3"
             android:textColor="#FFFFFF"
             android:textSize="18sp"/>
 
@@ -166,16 +166,16 @@
             android:id="@+id/panel3_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="200₺"
             android:layout_gravity="center"
+            android:text="null ₺"
             android:textColor="#FFFFFF"
-            android:textSize="24sp"/>
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/panel3_data"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Data: 8 GB"
+            android:text="Data:"
             android:textColor="#FFFFFF"
             android:textSize="16sp"/>
 
@@ -183,7 +183,7 @@
             android:id="@+id/panel3_minutes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Minutes: 500 Min"
+            android:text="Minutes:"
             android:textColor="#FFFFFF"
             android:textSize="16sp"/>
 
@@ -191,7 +191,7 @@
             android:id="@+id/panel3_sms"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SMS: 75"
+            android:text="SMS:"
             android:textColor="#FFFFFF"
             android:textSize="16sp"/>
 
